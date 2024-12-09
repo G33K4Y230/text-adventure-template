@@ -129,7 +129,7 @@ GamesRoom.linkRoom("west", Lounge);
 GamesRoom.linkRoom("north", Hall);
 Hall.linkRoom("south", GamesRoom);
 Hall.linkRoom("west", Kitchen);
-
+ 
 const displayRoomInfo = (room) => {
     let occupantMsg = "";
     if (room.Character) {
